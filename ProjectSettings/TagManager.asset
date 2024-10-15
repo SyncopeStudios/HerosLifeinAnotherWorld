@@ -75,11 +75,11 @@ TagManager:
   - name: Enemy
     uniqueID: 3019903591
     locked: 0
+  - name: Houses
+    uniqueID: 2857924695
+    locked: 0
   - name: Deco
     uniqueID: 1312064331
-    locked: 0
-  - name: Wall
-    uniqueID: 518866495
     locked: 0
   - name: Prop
     uniqueID: 3960250115
@@ -87,17 +87,17 @@ TagManager:
   - name: flowers
     uniqueID: 3189530593
     locked: 0
+  - name: Player
+    uniqueID: 1254581917
+    locked: 0
+  - name: Wall
+    uniqueID: 518866495
+    locked: 0
   - name: Treassure
     uniqueID: 4099674867
     locked: 0
   - name: Trees
     uniqueID: 1372468751
-    locked: 0
-  - name: Player
-    uniqueID: 1254581917
-    locked: 0
-  - name: Houses
-    uniqueID: 2857924695
     locked: 0
   - name: Particle
     uniqueID: 1516201391

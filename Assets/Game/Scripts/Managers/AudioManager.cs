@@ -13,14 +13,9 @@ public class AudioManager : Singelton<AudioManager>
     private void Awake()
     {
         base.Awake();
-        if (AudioManager.Instance == null)
-        {
+      
             DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+     
     }
 
     public void PlayMusic(AudioClip musicClip)
