@@ -3,56 +3,53 @@ using System.Collections;
 using System.Collections.Generic;
 using Game.Scripts.Extra;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singelton<GameManager>
 {
-
     [SerializeField] private Player player;
-
+    [SerializeField] private AudioManagerData audioManagerData; // Reference to ScriptableObject
+    
     public Player Player => player;
 
-    private Transform currentSpawnPoint;
+    private Dictionary<string, AudioClip> sceneAudioClips = new Dictionary<string, AudioClip>();
 
     private void Start()
     {
+        LoadAudioClips();
         SpawnPoint[] points = FindObjectsOfType<SpawnPoint>();
         foreach (var point in points)
         {
             SpawnManager.Instance.RegisterSpawnPoint(point);
         }
-    }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            player.ResetPlayer();
-        }
+        PlayMusicForCurrentScene();
     }
-
-    // Method to set a new spawn point (call this when the scene changes or based on logic)
-    public void SetSpawnPoint(Transform spawnPoint)
-    {
-        currentSpawnPoint = spawnPoint;
-    }
-
-    // Method to respawn the player at the spawn point
-    public void RespawnPlayer()
-    {
-        if (currentSpawnPoint != null)
-        {
-            player.transform.position = currentSpawnPoint.position;
-            player.transform.rotation = currentSpawnPoint.rotation;
-        }
-        else
-        {
-            Debug.LogWarning("No spawn point set!");
-        }
-    }
-
     public void AddPlayerExp(float expAmount)
     {
         PlayerExp playerExp = player.GetComponent<PlayerExp>();
         playerExp.AddExp(expAmount);
+    }
+
+    private void LoadAudioClips()
+    {
+        foreach (var clip in audioManagerData.sceneAudioClips)
+        {
+            sceneAudioClips[clip.sceneName] = clip.AudioClip;
+        }
+    }
+
+    private void PlayMusicForCurrentScene()
+    {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+
+        if (sceneAudioClips.TryGetValue(currentSceneName, out AudioClip clip))
+        {
+            AudioManager.Instance.PlayMusic(clip);
+        }
+        else
+        {
+            Debug.LogWarning($"No music clip found for scene: {currentSceneName}");
+        }
     }
 }

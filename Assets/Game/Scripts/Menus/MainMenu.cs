@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
    [SerializeField] private Player player;
+   public AudioClip MenuMusic;
     private void Start()
     {
         MenuManager.Instance.AddMenu(gameObject);
+        AudioManager.Instance.PlayMusic(MenuMusic);
     }
 
     public void StartGame()
