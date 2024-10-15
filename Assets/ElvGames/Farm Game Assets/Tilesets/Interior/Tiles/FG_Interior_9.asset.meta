@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1cf77d1b13d156342a6ebd8afe3e8a46
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250831
+  packageName: 2D Farm Game Interior Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/ElvGames/Farm Game Assets/Tilesets/Interior/Tiles/FG_Interior_9.asset
+  uploadId: 630470

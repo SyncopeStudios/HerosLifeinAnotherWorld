@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UnderWater
+    uniqueID: 2398482415
+    locked: 0
+  - name: UNEDERGROUND
+    uniqueID: 1823135597
+    locked: 0
+  - name: Floor
+    uniqueID: 1274104231
+    locked: 0
+  - name: floor1
+    uniqueID: 3647136013
+    locked: 0
+  - name: Sand
+    uniqueID: 1838666817
+    locked: 0
+  - name: IslandBottom
+    uniqueID: 4071940121
+    locked: 0
+  - name: Water
+    uniqueID: 2631892993
+    locked: 0
+  - name: IslandsTop
+    uniqueID: 1715294135
+    locked: 0
+  - name: cliffs
+    uniqueID: 1606555181
+    locked: 0
+  - name: Waterfall
+    uniqueID: 929309759
+    locked: 0
+  - name: Enemy
+    uniqueID: 3019903591
+    locked: 0
+  - name: Deco
+    uniqueID: 1312064331
+    locked: 0
+  - name: Wall
+    uniqueID: 518866495
+    locked: 0
+  - name: Prop
+    uniqueID: 3960250115
+    locked: 0
+  - name: flowers
+    uniqueID: 3189530593
+    locked: 0
+  - name: Treassure
+    uniqueID: 4099674867
+    locked: 0
+  - name: Trees
+    uniqueID: 1372468751
+    locked: 0
+  - name: Player
+    uniqueID: 1254581917
+    locked: 0
+  - name: Houses
+    uniqueID: 2857924695
+    locked: 0
+  - name: Particle
+    uniqueID: 1516201391
+    locked: 0
+  - name: UI
+    uniqueID: 3103712763
+    locked: 0
+  m_RenderingLayers:
+  - Default

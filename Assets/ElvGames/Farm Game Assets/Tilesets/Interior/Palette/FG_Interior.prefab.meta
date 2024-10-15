@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 02c61b624996a3b42a038dd2e74a4e29
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250831
+  packageName: 2D Farm Game Interior Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/ElvGames/Farm Game Assets/Tilesets/Interior/Palette/FG_Interior.prefab
+  uploadId: 630470

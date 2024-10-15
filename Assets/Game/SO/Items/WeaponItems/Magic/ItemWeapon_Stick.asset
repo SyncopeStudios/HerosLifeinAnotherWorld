@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c02d224a221db940b3088c759b15738, type: 3}
+  m_Name: ItemWeapon_Stick
+  m_EditorClassIdentifier: 
+  ID: WeaponStick
+  Name: Magic Stick
+  Icon: {fileID: 21300000, guid: d02606cb603ecb14daa05a23b3879426, type: 3}
+  Description: a strange stick with magical powers
+  itemType: 0
+  IsConsumable: 0
+  IsStackable: 0
+  MaxStack: 1
+  Quantity: 0
+  weapon: {fileID: 11400000, guid: dd301aa9262ffd64ab908faed0c66f64, type: 2}

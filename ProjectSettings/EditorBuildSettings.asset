@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/Sandbox.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Game/Scenes/Menu.unity
+    guid: 5b73f7e966fa1bf4494a381f1f5ed6b6
+  - enabled: 1
+    path: Assets/Game/Scenes/Level01.unity
+    guid: 3479073f448cdea4896523a449c0ad6a
+  - enabled: 1
+    path: Assets/Game/Scenes/Start.unity
+    guid: a386420c60f0672489e2a1640ac48a59
+  - enabled: 1
+    path: Assets/Game/Scenes/LushForest.unity
+    guid: b83f9c26befe6cd4f8fd400f433008f9
+  - enabled: 1
+    path: Assets/Game/Scenes/NinjaVillage.unity
+    guid: 4b1a3d7e382462343a422bab613b6f9a
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
