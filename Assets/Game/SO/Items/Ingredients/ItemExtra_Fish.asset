@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: ItemFish
   Name: Fish
-  Icon: {fileID: 21300000, guid: 504540b90f22653468071e36bb2658ea, type: 3}
+  Icon: {fileID: -2573225330018265798, guid: af843cb3709862e41b1e6938f86dfa89, type: 3}
   Description: Fish slippery when wet but yummy when cooked
   itemType: 3
   IsConsumable: 0
