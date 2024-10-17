@@ -85,6 +85,9 @@ TagManager:
   - name: Prop
     uniqueID: 3960250115
     locked: 0
+  - name: Stairs
+    uniqueID: 2111213969
+    locked: 0
   - name: flowers
     uniqueID: 3189530593
     locked: 0
@@ -93,6 +96,9 @@ TagManager:
     locked: 0
   - name: Wall
     uniqueID: 518866495
+    locked: 0
+  - name: HoseDecore
+    uniqueID: 3855425509
     locked: 0
   - name: Treassure
     uniqueID: 4099674867

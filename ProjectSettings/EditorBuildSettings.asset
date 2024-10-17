@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/Level01.unity
     guid: 3479073f448cdea4896523a449c0ad6a
   - enabled: 1
+    path: Assets/Game/Scenes/HerosHouse.unity
+    guid: 89f78016a96a87e4eae561b1319408ef
+  - enabled: 1
     path: Assets/Game/Scenes/Start.unity
     guid: a386420c60f0672489e2a1640ac48a59
   - enabled: 1
