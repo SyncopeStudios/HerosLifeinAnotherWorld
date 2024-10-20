@@ -30,6 +30,7 @@ public class DialogueManager : Singelton<DialogueManager>
     {
         base.Awake();
         _actions = new PlayerActions();
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
@@ -101,8 +102,5 @@ public class DialogueManager : Singelton<DialogueManager>
         _actions.Enable();
     }
 
-    private void OnDisable()
-    {
-        _actions.Disable();
-    }
+    
 }

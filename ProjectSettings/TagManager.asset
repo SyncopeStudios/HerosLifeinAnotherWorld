@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Fish
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -73,9 +74,6 @@ TagManager:
   - name: Waterfall
     uniqueID: 929309759
     locked: 0
-  - name: Enemy
-    uniqueID: 3019903591
-    locked: 0
   - name: Houses
     uniqueID: 2857924695
     locked: 0
@@ -85,14 +83,14 @@ TagManager:
   - name: Prop
     uniqueID: 3960250115
     locked: 0
+  - name: Enemy
+    uniqueID: 3019903591
+    locked: 0
   - name: Stairs
     uniqueID: 2111213969
     locked: 0
   - name: flowers
     uniqueID: 3189530593
-    locked: 0
-  - name: Player
-    uniqueID: 1254581917
     locked: 0
   - name: Wall
     uniqueID: 518866495
@@ -106,11 +104,17 @@ TagManager:
   - name: Trees
     uniqueID: 1372468751
     locked: 0
+  - name: Player
+    uniqueID: 1254581917
+    locked: 0
   - name: Particle
     uniqueID: 1516201391
     locked: 0
   - name: UI
     uniqueID: 3103712763
+    locked: 0
+  - name: coin
+    uniqueID: 1043384389
     locked: 0
   m_RenderingLayers:
   - Default

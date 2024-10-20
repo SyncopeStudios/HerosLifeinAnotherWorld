@@ -28,7 +28,7 @@ public class HouseInteraction : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            HouseManager.Instance.DeselectHouse();
+            SceneHandlerManager.Instance.DeselectHouse();
             interactionBox.SetActive(false);
         }
     }
@@ -39,7 +39,7 @@ public class HouseInteraction : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                HouseManager.Instance.ChangeScene(HouseType);
+                SceneHandlerManager.Instance.InteriorScenes(houseType);
             }
             yield return null; // Wait until the next frame
         }

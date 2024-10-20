@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1275063705
-  m_SortingLayer: 2
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a48980d4c4a5d3440b67c0d15e1710c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -175,7 +175,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1275063705
-  m_SortingLayer: 2
+  m_SortingLayer: 11
   m_SortingOrder: 5
   m_Sprite: {fileID: 908770824, guid: 45facd7a436279c4a82ca8854f3c920b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -325,6 +325,10 @@ MonoBehaviour:
   speed: 1.5
   wanderTime: 1
   moveRange: {x: 2, y: 2}
+  waterLayer:
+    serializedVersion: 2
+    m_Bits: 16
+  waterCheckRadius: 0.5
 --- !u!114 &7760210585861311218
 MonoBehaviour:
   m_ObjectHideFlags: 0

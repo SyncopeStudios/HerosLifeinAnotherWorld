@@ -48,12 +48,13 @@ public class Player : Singelton<Player>
         targetTime = 0.0f;
         savedTargetTime = 0.0f;
         extraBobberDistance = 0.0f;
+                                                
     }
 
     private void Awake()
     {
         base.Awake();
-        DontDestroyOnLoad(gameObject);
+       
         animations = GetComponent<PlayerAnimations>();
         playerHealth = GetComponent<PlayerHealth>();
         mana = GetComponent<PlayerMana>();

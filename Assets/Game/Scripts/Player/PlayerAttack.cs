@@ -38,8 +38,24 @@ namespace Game.Scripts.Player
         }
 
         private void Start()
-        {
+        {  if (WeaponManager.Instance == null)
+            {
+                // Attempt to find it in the scene if not already initialized
+                WeaponManager instance = FindFirstObjectByType<WeaponManager>();
+                if (instance == null)
+                {
+                    // Log an error if WeaponManager is not found
+                    Debug.LogError("WeaponManager not found in the scene!");
+                    return;
+                }
+
+                WeaponManager.Instance = instance; // Set the instance if found
+            }
+    
+            // Proceed to equip the initial weapon
             WeaponManager.Instance.EquipWeapon(initialWeapon);
+
+            // Hook up the attack input
             actions.Attack.ClickAttack.performed += ctx => Attack();
         }
 

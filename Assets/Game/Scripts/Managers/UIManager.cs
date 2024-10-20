@@ -2,12 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Game.Scripts;
+using Game.Scripts.Extra;
 using Game.Scripts.Player;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class UIManager : Singelton<UIManager>
 {
     [Header("Stats")] [SerializeField] private PlayerStats stats;
 
@@ -44,6 +45,8 @@ public class UIManager : MonoBehaviour
     {
         UpdatePlayerUI();
     }
+
+    
 
     public void OpenCloseStatsPanel()
     {

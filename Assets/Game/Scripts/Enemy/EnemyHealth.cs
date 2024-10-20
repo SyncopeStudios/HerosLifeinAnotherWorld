@@ -37,7 +37,7 @@ namespace Game.Scripts.Enemy
             if (CurrentHealth <= 0f)
             {
                 DisableEnemy();
-                QuestManager.Instance.AddProgress("Kill10Enemies", 1);
+             //   QuestManager.Instance.AddProgress("Kill10Enemies", 1);
             }
             else
             {
