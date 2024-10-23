@@ -10,10 +10,7 @@ public class WeaponManager : Singelton<WeaponManager>
     [SerializeField] private Image weaponIcon;
     [SerializeField] private TextMeshProUGUI weaponManaTMP;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+   
 
     public void EquipWeapon(Weapon weapon)
     {

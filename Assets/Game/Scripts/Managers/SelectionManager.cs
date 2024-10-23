@@ -20,11 +20,10 @@ public class SelectionManager : Singelton<SelectionManager>
     private void Awake()
     {
 
-        base.Awake();
-        DontDestroyOnLoad(gameObject);
         
         mainCamera = Camera.main;  // Assign camera on awake
         SceneManager.sceneLoaded += OnSceneLoaded;
+        DontDestroyOnLoad(gameObject);
         // Subscribe to scene load events
     }
 

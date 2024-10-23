@@ -21,10 +21,7 @@ namespace Game
         {
             LoadQuestIntoNPCPanel();
         }
-        private void Awake()
-        {
-            DontDestroyOnLoad(gameObject);
-        }
+       
 
         public void AcceptQuest(Quest quest)
         {

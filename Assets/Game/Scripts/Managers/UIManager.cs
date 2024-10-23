@@ -46,7 +46,11 @@ public class UIManager : Singelton<UIManager>
         UpdatePlayerUI();
     }
 
-    
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
 
     public void OpenCloseStatsPanel()
     {

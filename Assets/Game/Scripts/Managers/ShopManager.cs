@@ -16,10 +16,7 @@ public class ShopManager : Singelton<ShopManager>
     {
         LoadShop();
     }
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+   
 
 
     private void LoadShop()

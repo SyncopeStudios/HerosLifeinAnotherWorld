@@ -1,6 +1,4 @@
-// Alvin Philips
-// June 21th, 2024
-// Checkpoint System.
+
 
 using System;
 using System.Collections;
@@ -20,8 +18,7 @@ public class CheckPointSystem :Singelton<CheckPointSystem>
 
     private void Awake()
     {
-        base.Awake();
-        DontDestroyOnLoad(gameObject);
+
         Respawn();
     }
 

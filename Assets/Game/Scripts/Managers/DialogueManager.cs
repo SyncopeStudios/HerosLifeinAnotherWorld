@@ -28,9 +28,10 @@ public class DialogueManager : Singelton<DialogueManager>
 
     protected override void Awake()
     {
-        base.Awake();
+     
         _actions = new PlayerActions();
         DontDestroyOnLoad(gameObject);
+
     }
 
     private void Start()

@@ -66,7 +66,7 @@
                     sceneToLoad = "InnScene"; // Replace with the actual scene name
                     break;
                 default:
-                    sceneToLoad = "HerosHouse"; // Replace with the default scene name
+                    sceneToLoad = "Level01"; // Replace with the default scene name
                     break;
             }
 

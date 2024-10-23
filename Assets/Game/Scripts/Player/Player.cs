@@ -9,7 +9,7 @@ using TMPro.EditorUtilities;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Player : Singelton<Player>
+public class Player : MonoBehaviour
 {  [Header("Config")]
     [SerializeField] private PlayerStats stats;
 
@@ -53,7 +53,7 @@ public class Player : Singelton<Player>
 
     private void Awake()
     {
-        base.Awake();
+        
        
         animations = GetComponent<PlayerAnimations>();
         playerHealth = GetComponent<PlayerHealth>();

@@ -16,10 +16,7 @@ public class GameManager : Singelton<GameManager>
 
     private Dictionary<string, AudioClip> sceneAudioClips = new Dictionary<string, AudioClip>();
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+  
 
     private void Start()
     {
