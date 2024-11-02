@@ -30,7 +30,7 @@ public class DialogueManager : Singelton<DialogueManager>
     {
      
         _actions = new PlayerActions();
-        DontDestroyOnLoad(gameObject);
+       
 
     }
 

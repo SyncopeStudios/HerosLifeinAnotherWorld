@@ -48,7 +48,7 @@ public class UIManager : Singelton<UIManager>
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+       
     }
 
 

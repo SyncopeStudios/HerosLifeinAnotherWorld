@@ -12,7 +12,7 @@ namespace Game.Scripts.Extra
             if (Instance == null)
             {
                 Instance = this as T;
-                DontDestroyOnLoad(gameObject);
+                
                 
             }
             else if ( Instance!= this)

@@ -10,7 +10,7 @@ public class AudioManager : Singelton<AudioManager>
     private void Awake()
     {
         base.Awake(); // Ensure the Singleton is properly initialized
-        DontDestroyOnLoad(gameObject);
+     
     }
 
     public void PlayMusic(AudioClip musicClip)

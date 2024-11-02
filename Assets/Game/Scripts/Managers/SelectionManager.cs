@@ -23,7 +23,7 @@ public class SelectionManager : Singelton<SelectionManager>
         
         mainCamera = Camera.main;  // Assign camera on awake
         SceneManager.sceneLoaded += OnSceneLoaded;
-        DontDestroyOnLoad(gameObject);
+        
         // Subscribe to scene load events
     }
 
